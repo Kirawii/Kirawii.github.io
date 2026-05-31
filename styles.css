@@ -1,0 +1,31 @@
+/* Personal-only additions on top of the crawled acad-homepage theme. */
+.avatar-placeholder {
+  display: grid;
+  place-items: center;
+  max-width: 175px;
+  min-width: 75px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #52adc8, #224b8d);
+  color: #fff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 2.4em;
+  font-weight: bold;
+}
+
+@media (min-width: 57.8125em) {
+  .avatar-placeholder {
+    padding: 5px;
+    border: 1px solid #f2f3f3;
+  }
+}
+
+.bio-text {
+  white-space: normal;
+  margin-bottom: 1em;
+}
+
+.author__avatar img.author__avatar {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
